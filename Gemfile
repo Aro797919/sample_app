@@ -40,10 +40,16 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
 end
+group :test do
+gem 'minitest-reporters'
+gem 'mini_backtrace'
+gem 'guard-minitest'
+end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '>= 3.3.0'
+  gem 'guard'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
