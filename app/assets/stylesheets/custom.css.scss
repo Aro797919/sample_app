@@ -1,0 +1,18 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+body {
+	padding-top: 30px;
+}
+section {
+	overflow: auto;
+}
+textarea {
+	resize: vertical;
+}
+.center {
+	text-aligne: center;
+}
+.center h1 {
+margin-bottom: 10px;
+	
+}
